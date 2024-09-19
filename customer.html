@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Customer Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1>Customer Dashboard</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Customer Registration/Login</h2>
+        <form id="customerForm">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Submit</button>
+        </form>
+        <h3>Search Artists</h3>
+        <input type="text" id="search" placeholder="Search by category">
+        <button onclick="searchArtists()">Search</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Artist Hub</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
